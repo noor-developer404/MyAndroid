@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(),OnClickListener {
                 R.id.main_navigationDrawer->{
                     val intent = Intent(this,NavDrawer::class.java)
                     startActivity(intent)
-                    var int=10;
+                    var int=50;
                 }
             }
         }
