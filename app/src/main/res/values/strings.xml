@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyAndroid</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+<!--    definations-->
+    <string name="def_recyclerview">RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they are needed. As the name implies, RecyclerView recycles those individual elements.</string>
+    <string name="def_tablayout">In Android TabLayout is a new element introduced in Design Support library. It provides horizontal layout to display tabs on the screen. We can display more screens in a single screen using tabs. We can quickly swipe between the tabs.</string>
+    <string name="def_navigation">The navigation drawer is the most common feature offered by android and the navigation drawer is a UI panel that shows your app\'s main navigation menu</string>
+
+</resources>
