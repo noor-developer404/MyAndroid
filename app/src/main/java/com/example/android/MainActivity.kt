@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity(),OnClickListener {
         binding.mainRecyclerview.setOnClickListener(this)
         binding.mainTablayout.setOnClickListener(this)
         binding.mainNavigationDrawer.setOnClickListener(this)
+        binding.mainBottomNavigation.setOnClickListener(this)
+        binding.mainNotification.setOnClickListener(this)
+
 
     }
 
@@ -34,6 +37,14 @@ class MainActivity : AppCompatActivity(),OnClickListener {
                 }
                 R.id.main_navigationDrawer->{
                     val intent = Intent(this,NavDrawer::class.java)
+                    startActivity(intent)
+                }
+                R.id.main_bottom_navigation->{
+                    val intent = Intent(this,Bottom_navigation::class.java)
+                    startActivity(intent)
+                }
+                R.id.main_notification->{
+                    val intent = Intent(this,com.example.android.notification::class.java)
                     startActivity(intent)
                 }
             }

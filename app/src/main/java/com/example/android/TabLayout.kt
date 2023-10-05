@@ -19,7 +19,7 @@ class TabLayout : AppCompatActivity() {
         val binding = ActivityTabLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var items = arrayOf("Tab1","Tab2","Tab3")
+        var items = arrayOf("Chats","Status","Calls")
         binding.viewPager.adapter=tab_pageAdapter(this)
         binding.tablayout.addOnTabSelectedListener(object: OnTabSelectedListener{
             override fun onTabSelected(tab: TabLayout.Tab?) {

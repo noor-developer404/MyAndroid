@@ -25,9 +25,9 @@ class NavDrawer : AppCompatActivity() {
 
         binding.navView.setNavigationItemSelectedListener {
             when (it.itemId){
-                R.id.nav_menu_item1 -> Toast.makeText(this,"item1",Toast.LENGTH_SHORT).show()
-                R.id.nav_menu_item2 ->Toast.makeText(this,"item2",Toast.LENGTH_SHORT).show()
-                R.id.nav_menu_item3 ->Toast.makeText(this,"item3",Toast.LENGTH_SHORT).show()
+                R.id.nav_menu_chat -> Toast.makeText(this,"item1",Toast.LENGTH_SHORT).show()
+                R.id.nav_menu_status ->Toast.makeText(this,"item2",Toast.LENGTH_SHORT).show()
+                R.id.nav_menu_call ->Toast.makeText(this,"item3",Toast.LENGTH_SHORT).show()
 
             }
             true

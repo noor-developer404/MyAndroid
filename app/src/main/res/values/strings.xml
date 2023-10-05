@@ -7,9 +7,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-<!--    definations-->
+    <!--    definations-->
     <string name="def_recyclerview">RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they are needed. As the name implies, RecyclerView recycles those individual elements.</string>
     <string name="def_tablayout">In Android TabLayout is a new element introduced in Design Support library. It provides horizontal layout to display tabs on the screen. We can display more screens in a single screen using tabs. We can quickly swipe between the tabs.</string>
     <string name="def_navigation">The navigation drawer is the most common feature offered by android and the navigation drawer is a UI panel that shows your app\'s main navigation menu</string>
-
+    <string name="def_bottom_navigation">A bottom navigation bar in Android is a user interface component typically placed at the bottom of the screen. It provides easy access to different sections or destinations within an app, allowing users to quickly switch between them.</string>
+    <string name="def_notification">A notification is a message that Android displays outside your app\'s UI to provide the user with reminders, communication from other people, or other timely information from your app.</string>
 </resources>
